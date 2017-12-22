@@ -1,5 +1,39 @@
 @charset "utf-8";
 /* CSS Document */
-id {
-	width: 30%;
+
+/* Clase para darle estilos al body*/
+.music-detox {
+	background: #5C7583;
+}
+
+/* Clase para darle estilos a la barra de navegacion*/
+.navbar-inverse {
+	background: #082D5E;
+	min-height: 10%;
+	border: none;
+}
+
+/* Clase para darle estilos al contenedor principal */
+.container-fluid {
+	margin-top: 64px;
+}
+
+/* Clase para darle estilos al contenido */
+.contenido {
+	background: #00678e;
+	min-height: 500px;
+	border-radius: 0px, !important;
+	margin-bottom: 0px;
+}
+
+.buscador {
+	background: #00678e;
+	min-height: 500px;
+	border-radius: 0px, !important;
+	margin-bottom: 0px;
+}
+
+/* Clase para darle estilos al logo */
+.logo-img {
+	height: 200px;
 }
