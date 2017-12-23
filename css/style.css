@@ -6,6 +6,11 @@
 	background: #5C7583;
 }
 
+/*Clase para darle estilos al encabezado*/
+.contenedor-encabezado {
+	position: relative;
+}
+
 /* Clase para darle estilos al logo */
 .logo-img {
 	text-align: center;
@@ -17,19 +22,18 @@
 }
 
 /* Clase para darle estilos a los Iconos Sociales*/
-
 .redes-sociales {
-	text-align: center;
-	padding: 5px;
+	text-align: center;	
+	padding: 5px;	
 }
 
 .redes-sociales img {
 	border-radius: 10px;
+	vertical-align: bottom;
 }
 
 /* Clase para darle estilos a la Barra de navegacion*/
-
 .barra-navegacion {
-    text-align: center;
+    
 }
 
