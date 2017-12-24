@@ -37,3 +37,7 @@
     
 }
 
+/*Clase para darle estilos a el contenido*/
+li img {
+	width: 30%;
+}
