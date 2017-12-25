@@ -12,32 +12,50 @@
 }
 
 /* Clase para darle estilos al logo */
-.logo-img {
-	text-align: center;
-	padding: 0px;
-}
-
 .logo-img img {
 	height: 200px;
 }
 
 /* Clase para darle estilos a los Iconos Sociales*/
 .redes-sociales {
-	text-align: center;	
-	padding: 5px;	
+	text-align: right;
 }
-
-.redes-sociales img {
+.social {
 	border-radius: 10px;
-	vertical-align: bottom;
-}
-
-/* Clase para darle estilos a la Barra de navegacion*/
-.barra-navegacion {
-    
 }
 
 /*Clase para darle estilos a el contenido*/
-li img {
-	width: 30%;
+.img-formulario {
+	width: 30px;
+	border-radius: 5px;
+}
+
+/*Clase para darle estilos a el Buscador*/
+.img-buscador {
+	width: 30px;
+	border-radius: 5px;
+}
+
+.opciones-busqueda {
+	border-radius: 5px;
+}
+
+.busquedar {
+    visibility: hidden;
+}
+
+@media (max-width: 720px) {
+	.opciones-busqueda {
+    	visibility: hidden;
+		height: 1px;
+	}
+	.busqueda {
+		height: 60px;
+	}
+	.logo-img {
+		text-align: center;
+	}
+	.redes-sociales {
+		text-align: center;
+	}
 }
