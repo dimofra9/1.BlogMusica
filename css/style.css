@@ -7,13 +7,16 @@
 	.busqueda {
 		display: none;
 	}
+	
 	.contenido {
 		margin: 5px 10px;
 	}
+	
 	.logo-img {
 		margin: 0px 10px;
 		text-align: center;
 	}
+	
 	.redes-sociales {
 		text-align: center;
 	}
@@ -24,6 +27,7 @@
 	.redes-sociales {
 		text-align: right;
 	}
+	
 	.logo-img {
 		text-align: left;
 	}
