@@ -1,14 +1,32 @@
 @charset "utf-8";
 /* CSS Document */
 
-/* Clase para darle estilos al body*/
-.music-detox {
-	background: #5C7583;
+
+/*Clase para dispositivos medianos*/
+@media (max-width: 991px) {
+	.busqueda {
+		display: none;
+	}
+	.contenido {
+		margin: 5px 10px;
+	}
+	.logo-img {
+		margin: 0px 10px;
+		text-align: center;
+	}
+	.redes-sociales {
+		text-align: center;
+	}
 }
 
-/*Clase para darle estilos al encabezado*/
-.contenedor-encabezado {
-	position: relative;
+/*Clase para dispositivos grandes*/
+@media (min-width: 991px) {	
+	.redes-sociales {
+		text-align: right;
+	}
+	.logo-img {
+		text-align: left;
+	}
 }
 
 /* Clase para darle estilos al logo */
@@ -17,10 +35,7 @@
 }
 
 /* Clase para darle estilos a los Iconos Sociales*/
-.redes-sociales {
-	text-align: right;
-}
-.social {
+.social-img {
 	border-radius: 10px;
 }
 
@@ -28,34 +43,4 @@
 .img-formulario {
 	width: 30px;
 	border-radius: 5px;
-}
-
-/*Clase para darle estilos a el Buscador*/
-.img-buscador {
-	width: 30px;
-	border-radius: 5px;
-}
-
-.opciones-busqueda {
-	border-radius: 5px;
-}
-
-.busquedar {
-    visibility: hidden;
-}
-
-@media (max-width: 720px) {
-	.opciones-busqueda {
-    	visibility: hidden;
-		height: 1px;
-	}
-	.busqueda {
-		height: 60px;
-	}
-	.logo-img {
-		text-align: center;
-	}
-	.redes-sociales {
-		text-align: center;
-	}
 }
